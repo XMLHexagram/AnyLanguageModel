@@ -28,7 +28,7 @@ let package = Package(
         .default(enabledTraits: []),
     ],
     dependencies: [
-        .package(url: "https://github.com/huggingface/swift-transformers", from: "1.0.0"),
+        .package(url: "https://github.com/huggingface/swift-transformers", from: "1.1.2"),
         .package(url: "https://github.com/mattt/EventSource", from: "1.3.0"),
         .package(url: "https://github.com/mattt/JSONSchema", from: "1.3.0"),
         .package(url: "https://github.com/mattt/llama.swift", .upToNextMajor(from: "1.6818.0")),
